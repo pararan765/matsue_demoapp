@@ -27,3 +27,23 @@ footer {
   left: 25px;
   font-size: 25px;
 }
+
+.user {
+  display: block;
+  font-size: 25px;
+  color: #fdeff2;
+}
+
+.user:hover {
+  font-size: 35px;
+}
+.account {
+  display: flex;
+  position: absolute;
+  right: 25px;
+  bottom: 10px;
+}
+
+.footer-new-account {
+  padding-left: 50px;
+}
