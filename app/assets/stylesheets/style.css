@@ -1,0 +1,29 @@
+body {
+  background-color: #494a41;
+  color: #fdeff2;
+  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+}
+
+a {
+  text-decoration:none; 
+}
+
+footer {
+  background-image: url("header.jpg");
+  background-size: cover;
+  height: 100px;
+  width: 100vw;
+}
+
+.footer-wrapper {
+  background-color: rgba(0, 0,0, 0.2);
+  height: 100px;
+  position: relative;
+}
+
+.footer-catch {
+  position: absolute;
+  top:1px;
+  left: 25px;
+  font-size: 25px;
+}
