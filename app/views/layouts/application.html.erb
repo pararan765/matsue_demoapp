@@ -14,10 +14,15 @@
 
     <footer >
       <div class="footer-wrapper">
-        <p class="footer-catch"> あなたの人生の１ページに </p>
+        <%= link_to 'あなたの人生の１ページに', root_path, class:"footer-catch"%>
         <div class="account">
-          <%= link_to 'ログイン', "#", class: "user footer-login" %>
-          <%= link_to '新規登録', "#", class: "user footer-new-account" %>
+          <% if user_signed_in?%>
+            <%= link_to 'マイページ', "#", class: "user" %>
+            <%= link_to 'ログアウト', destroy_user_session_path, class: "user footer-new-account", method: :delete %>
+          <% else %>
+            <%= link_to 'ログイン', new_user_session_path, class: "user footer-login" %>
+            <%= link_to '新規登録', new_user_registration_path, class: "user footer-new-account" %>
+          <% end %>
         </div>
       </div>
     </footer>

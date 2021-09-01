@@ -23,9 +23,15 @@ footer {
 
 .footer-catch {
   position: absolute;
-  top:1px;
+  top:20px;
   left: 25px;
   font-size: 25px;
+  color: #fdeff2;
+}
+
+.footer-catch:hover {
+  font-size: 35px;
+  color: #c89932;
 }
 
 .user {
@@ -36,6 +42,7 @@ footer {
 
 .user:hover {
   font-size: 35px;
+  color: #c89932;
 }
 .account {
   display: flex;
@@ -47,3 +54,4 @@ footer {
 .footer-new-account {
   padding-left: 50px;
 }
+
