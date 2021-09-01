@@ -1,7 +1,7 @@
 <div class="new-make"> 
   <h2 >新規登録</h2>
 </div>
-    <%= form_for(resource, as: resource_name, url: root_path) do |f| %>
+    <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
       <%= render "devise/shared/error_messages", resource: resource %>
       <div class="new-account-wrapper">
         <div class="color-filter">

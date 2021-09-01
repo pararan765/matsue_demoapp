@@ -29,7 +29,7 @@
 | Column          | Type       | Options                        |
 | --------------- | ---------- | ------------------------------ |
 | number_id       | integer    | null: false                    |
-| days_id         | integer    | null: false                    |
+| stay_id         | integer    | null: false                    |
 | season_id       | integer    | null: false                    |
 | purpose_id      | integer    | null: false                    |
 | user            | references | null: false, foreign_key: true |

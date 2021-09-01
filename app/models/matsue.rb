@@ -1,0 +1,2 @@
+class Matsue < ApplicationRecord
+end
