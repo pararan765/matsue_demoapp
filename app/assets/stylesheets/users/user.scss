@@ -1,0 +1,81 @@
+.new-account-wrapper {
+  text-align: center;
+  background-image: image-url("login.jpeg");
+  background-size: cover;
+  height: 800px;
+  width: 70vw;
+  margin:15px auto;
+  margin-bottom: 80px;
+}
+
+.color-filter {
+  height: 800px;
+  width: 70vw;
+  margin: 0 auto;
+  background-color: rgba($color: #000000, $alpha: 0.3);
+}
+
+.color-login-filter {
+  height: 600px;
+  width: 70vw;
+  margin: 0 auto;
+  background-color: rgba($color: #000000, $alpha: 0.3);
+}
+
+.new-make {
+  text-align: center;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.text-form {
+  padding-top: 75px;
+}
+
+.field {
+  font-size: 20px;
+}
+
+.input-default {
+  width: 60%;
+  margin-top: 5px;
+  height: 24px;
+  padding: 10px 16px 8px;
+  border-radius: 4px;
+  border: 1px solid #fdeff2;
+  background: #fff;
+  font-size: 16px;
+  resize: none;
+  margin-top: 15px;
+  margin-bottom:50px ;
+}
+
+.input-label {
+  font-size: 20px;
+}
+
+.register-btn {
+  width: 300px;
+  height: 60px;
+  opacity: 0.8;
+  background-color: #c89932;
+}
+
+.register-btn:hover {
+  cursor: pointer;
+  opacity: 1.0;
+}
+
+.remember {
+  margin-bottom: 30px;
+}
+
+.login-wrapper {
+  text-align: center;
+  background-image: image-url("login.jpeg");
+  background-size: cover;
+  height: 600px;
+  width: 70vw;
+  margin:15px auto;
+  margin-bottom: 80px;
+}

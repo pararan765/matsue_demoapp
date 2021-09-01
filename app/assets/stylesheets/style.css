@@ -23,7 +23,35 @@ footer {
 
 .footer-catch {
   position: absolute;
-  top:1px;
+  top:20px;
   left: 25px;
   font-size: 25px;
+  color: #fdeff2;
 }
+
+.footer-catch:hover {
+  font-size: 35px;
+  color: #c89932;
+}
+
+.user {
+  display: block;
+  font-size: 25px;
+  color: #fdeff2;
+}
+
+.user:hover {
+  font-size: 35px;
+  color: #c89932;
+}
+.account {
+  display: flex;
+  position: absolute;
+  right: 25px;
+  bottom: 10px;
+}
+
+.footer-new-account {
+  padding-left: 50px;
+}
+

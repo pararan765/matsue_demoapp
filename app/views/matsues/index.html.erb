@@ -43,12 +43,12 @@
   <div class="third-contents">
     <div class="planing-wrapper">
       <h2>松江旅行プラン</h2>
-      <a href="#" class="matching">
+      <%= link_to(new_matsue_path,class: "matching") do %>
         <div class="matching-wrapper">
           <h3 class="matching-logo">松江旅行プラン無料実施中!<h3>
           <p class="matching-comment">クリックして松江の旅行プランを立てよう！</p>
         </div>
-      </a>
+      <% end %>
     </div>
   </div>
 </div>
