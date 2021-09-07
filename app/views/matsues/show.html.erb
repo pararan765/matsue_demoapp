@@ -1,0 +1,244 @@
+<%= render "shared/footer" %>
+
+<div class="mypage-wrapper">
+  <h2>マイページ</h2>
+  <div class="user-name"> 
+    <%= "ようこそ" %>
+    <%= current_user.nickname%>
+    <%= "さん" %>
+  </div>
+  <div class="mypage-branch">
+    <% case @matsue.number_id %>
+      <% when 2 %>
+        <% case @matsue.stay_id %>
+          <% when 2 %>
+            <% case @matsue.season_id %>
+              <% when 2 %>
+                <% case @matsue.purpose_id %>
+                  <% when 2 %>
+                    <%= render "branch/ver-2" %>
+                  <% when 3 %>
+                    <%= render "branch/ver-3" %>
+                  <% when 4 %>
+                    <%= render "branch/ver-4" %>
+                  <% when 5 %>
+                    <%= render "branch/ver-5" %>
+                  <% when 6 %>
+                    <%= render "branch/ver-6"%>
+                <% end %>
+              <% when 3 %>
+                <% case @matsue.purpose_id %>
+                  <% when 2 %>
+                    <%= render "branch/ver-7"%>
+                  <% when 3 %>
+                    <%= render "branch/ver-8"%>
+                  <% when 4 %>
+                    <%= render "branch/ver-4"%>
+                  <% when 5 %>
+                    <%= render "branch/ver-9"%>
+                  <% when 6 %>
+                    <%= render "branch/ver-6"%>
+                <% end %>
+              <% when 4 %>
+                <% case @matsue.purpose_id %>
+                  <% when 2 %>
+                    <%= render "branch/ver-2" %>
+                  <% when 3 %>
+                    <%= render "branch/ver-3" %>
+                  <% when 4 %>
+                    <%= render "branch/ver-10"%>
+                  <% when 5 %>
+                    <%= render "branch/ver-11" %>
+                  <% when 6 %>
+                    <%= render "branch/ver-6"%>
+                <% end %>
+              <% when 5 %>
+                <% case @matsue.purpose_id %>
+                  <% when 2 %>
+                    <%= render "branch/ver-12"%>
+                  <% when 3 %>
+                    <%= render "branch/ver-3" %>
+                  <% when 4 %>
+                    <%= render "branch/ver-13"%>
+                  <% when 5 %>
+                    <%= render "branch/ver-14"%>
+                  <% when 6 %>
+                    <%= render "branch/ver-6" %>
+                <% end %>
+            <% end %>
+          <% when 3 %>
+            <% case @matsue.season_id %>
+              <% when 2 %>
+                <% case @matsue.purpose_id %>
+                  <% when 2 %>
+                    <%= render "branch/ver-101" %>
+                  <% when 3 %>
+                    <%= render "branch/ver-102" %>
+                  <% when 4 %>
+                    <%= render "branch/ver-103"%>
+                  <% when 5 %>
+                    <%= render "branch/ver-104" %>
+                  <% when 6 %>
+                    <%= render "branch/ver-105" %>
+                <% end %>
+              <% when 3 %>
+                <% case @matsue.purpose_id %>
+                  <% when 2 %>
+                    <%= render 'branch/ver-101' %>
+                  <% when 3 %>
+                    <%= render 'branch/ver-102'%>
+                  <% when 4 %>
+                    <%= render 'branch/ver-106' %>
+                  <% when 5 %>
+                    <%= render 'branch/ver-106'%>
+                  <% when 6 %>
+                    <%= render 'branch/ver-105'%>
+                <% end %>
+              <% when 4 %>
+                <% case @matsue.purpose_id %>
+                  <% when 2 %>
+                    <%= render 'branch/ver-101' %>
+                  <% when 3 %>
+                    <%= render 'branch/ver-107'%>
+                  <% when 4 %>
+                    <%= render 'branch/ver-106'%>
+                  <% when 5 %>
+                    <%= render 'branch/ver-108'%>
+                  <% when 6 %>
+                    <%= render 'branch/ver-109' %>
+                <% end %>
+              <% when 5 %>
+                <% case @matsue.purpose_id %>
+                  <% when 2 %>
+                    <%= render 'branch/ver-110'%>
+                  <% when 3 %>
+                    <%= render 'branch/ver-111'%>
+                  <% when 4 %>
+                    <%= render 'branch/ver-112' %>
+                  <% when 5 %>
+                    <%= render 'branch/ver-112' %>
+                  <% when 6 %>
+                    <%= render 'branch/ver-109' %>
+                <% end %>
+            <% end %>
+        <% end %>
+      <% when 3 %>
+        <% case @matsue.stay_id %>
+          <% when 2 %>
+            <% case @matsue.season_id %>
+              <% when 2 %>
+                <% case @matsue.purpose_id %>
+                  <% when 2 %>
+                    <%= render 'branch/ver-7'%>
+                  <% when 3 %>
+                    <%= render 'branch/ver-3' %>
+                  <% when 4 %>
+                    <%= render 'branch/ver-4'%>
+                  <% when 5 %>
+                    <%= render 'branch/ver-5' %>
+                  <% when 6 %>
+                    <%= render 'branch/ver-6' %>
+                <% end %>
+              <% when 3 %>
+                <% case @matsue.purpose_id %>
+                  <% when 2 %>
+                    <%= render 'branch/ver-2' %>
+                  <% when 3 %>
+                    <%= render 'branch/ver-3' %>
+                  <% when 4 %>
+                    <%= render 'branch/ver-15' %>
+                  <% when 5 %>
+                    <%= render 'branch/ver-5' %>
+                  <% when 6 %>
+                    <%= render 'branch/ver-12' %>
+                <% end %>
+              <% when 4 %>
+                <% case @matsue.purpose_id %>
+                  <% when 2 %>
+                    <%= render 'branch/ver-7' %>
+                  <% when 3 %>
+                    <%= render 'branch/ver-16' %>
+                  <% when 4 %>
+                    <%= render 'branch/ver-10' %>
+                  <% when 5 %>
+                    <%= render 'branch/ver-9' %>
+                  <% when 6 %>
+                    <%= render 'branch/ver-8' %>
+                <% end %>
+              <% when 5 %>
+                <% case @matsue.purpose_id %>
+                  <% when 2 %>
+                    <%= render 'branch/ver-12' %>
+                  <% when 3 %>
+                    <%= render 'branch/ver-6' %>
+                  <% when 4 %>
+                    <%= render 'branch/ver-13' %>
+                  <% when 5 %>
+                    <%= render 'branch/ver-5' %>
+                  <% when 6 %>
+                    <%= render 'branch/ver-15' %>
+                <% end %>
+            <% end %>
+          <% when 3 %>
+            <% case @matsue.season_id %>
+              <% when 2 %>
+                <% case @matsue.purpose_id %>
+                  <% when 2 %>
+                    <%= render 'branch/ver-113' %>
+                  <% when 3 %>
+                    <%= render 'branch/ver-102' %>
+                  <% when 4 %>
+                    <%= render 'branch/ver-103' %>
+                  <% when 5 %>
+                    <%= render 'branch/ver-114'%>
+                  <% when 6 %>
+                    <%= render 'branch/ver-109' %>
+                <% end %>
+              <% when 3 %>
+                <% case @matsue.purpose_id %>
+                  <% when 2 %>
+                    <%= render 'branch/ver-101' %>
+                  <% when 3 %>
+                    <%= render 'branch/ver-107' %>
+                  <% when 4 %>
+                    <%= render 'branch/ver-108' %>
+                  <% when 5 %>
+                    <%= render 'branch/ver-115' %>
+                  <% when 6 %>
+                    <%= render 'branch/ver-116' %>
+                <% end %>
+              <% when 4 %>
+                <% case @matsue.purpose_id %>
+                  <% when 2 %>
+                    <%= render 'branch/ver-113' %>
+                  <% when 3 %>
+                    <%= render 'branch/ver-117'%>
+                  <% when 4 %>
+                    <%= render 'branch/ver-108' %>
+                  <% when 5 %>
+                    <%= render 'branch/ver-116' %>
+                  <% when 6 %>
+                    <%= render 'branch/ver-107' %>
+                <% end %>
+              <% when 5 %>
+                <% case @matsue.purpose_id %>
+                  <% when 2 %>
+                    <%= render 'branch/ver-118' %>
+                  <% when 3 %>
+                    <%= render 'branch/ver-111' %>
+                  <% when 4 %>
+                    <%= render 'branch/ver-112' %>
+                  <% when 5 %>
+                    <%= render 'branch/ver-105'%>
+                  <% when 6 %>
+                    <%= render 'branch/ver-102'%>
+                <% end %>
+            <% end %>
+        <% end %>
+      
+    <% end %>
+  </div>
+</div>
+
+
+

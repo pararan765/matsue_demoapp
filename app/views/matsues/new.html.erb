@@ -19,10 +19,6 @@
         <h5>旅行に行くうえで最も大切にしたいことは何ですか？</h5>
         <%= f.collection_select(:purpose_id, Purpose.all, :id, :name, {}, {class:"select-box",}) %>
       </div>
-      <div class="planing-text">
-        <h5>旅行に行くうえで次に大切にしたいことは何ですか？※重複不可</h5>
-        <%= f.collection_select(:purpose_id, Purpose.all, :id, :name, {}, {class:"select-box",}) %>
-      </div>
       <div class="planing-btn-contents">
         <%= f.submit "結果を見る" ,class:"planing-btn" %>
         <%=link_to 'もどる', root_path, class:"back-btn" %>
@@ -31,3 +27,5 @@
   </div>  
  <% end %>
 </div>
+
+<%= render "shared/footer" %>

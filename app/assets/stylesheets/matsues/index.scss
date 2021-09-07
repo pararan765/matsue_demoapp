@@ -5,6 +5,17 @@
   width: 100vw;
   left: 0px;
   position: relative;
+  animation: fadeIn 3s linear;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
 }
 
 .catch-copy {
@@ -68,6 +79,7 @@ h2 {
 
 .category-list:hover {
   opacity: 1.0;
+  border: 2px solid #c89932;
  }
 
 .food {
@@ -109,6 +121,7 @@ h2 {
 
 .matching:hover {
   opacity: 1.0;
+  border: 2px solid #c89932;
 }
 
 .matching-wrapper {
