@@ -1,1 +1,31 @@
-<%"test"%>
+<div class="planing-contents">
+  <h2>松江旅行プランニング</h2>
+  <%= form_with model:@matsue,  local: true do |f| %>
+  <div class="planing-form">
+    <div class="planing-filter">
+      <div class="planing-text">
+        <h5>旅行する予定人数を教えてください</h5>
+        <%= f.collection_select(:number_id, Number.all, :id, :name, {}, {class:"select-box"}) %>
+      </div>
+      <div class="planing-text">
+        <h5>旅行希望日数を教えてください</h5>
+        <%= f.collection_select(:stay_id, Stay.all, :id, :name, {}, {class:"select-box"}) %>
+      </div>
+      <div class="planing-text">
+        <h5>旅行に行きたい季節はいつですか？</h5>
+        <%= f.collection_select(:season_id, Season.all, :id, :name, {}, {class:"select-box"}) %>
+      </div>
+      <div class="planing-text">
+        <h5>旅行に行くうえで最も大切にしたいことは何ですか？</h5>
+        <%= f.collection_select(:purpose_id, Purpose.all, :id, :name, {}, {class:"select-box",}) %>
+      </div>
+      <div class="planing-btn-contents">
+        <%= f.submit "結果を見る" ,class:"planing-btn" %>
+        <%=link_to 'もどる', root_path, class:"back-btn" %>
+      </div>
+    </div>
+  </div>  
+ <% end %>
+</div>
+
+<%= render "shared/footer" %>

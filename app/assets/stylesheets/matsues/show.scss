@@ -1,0 +1,71 @@
+.branch-main {
+  height: 3000px;
+}
+
+.mypage-wrapper {
+  height: 1200px;
+  text-align: center;
+  
+}
+
+.user-name {
+  font-size: 30px;
+  color:#fdeff2 ;
+  margin-bottom: 70px;
+}
+
+.branch-filter {
+  height: 2000px;
+  background-image: image-url('table1.jpg');
+  background-size: cover;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.branch {
+  background-color: rgba($color: #000000, $alpha: 0.8);
+  height: 2000px;
+}
+
+.branch-wrapper {
+  margin-top: 50px;
+  align-items: center;
+}
+
+.branch-wrapper h2 {
+  display: inline;
+}
+
+.table-main {
+  margin: 0 auto;
+  color: #fdeff2;
+  font-size: 25px;
+  width: 600px;
+  margin-top: 70px;
+}
+
+.table-main th {
+  padding: 15px 30px;
+  border: 1px solid #fdeff2;
+}
+
+.logo {
+  background-color:#38b48b ;
+}
+
+.second-branch {
+  margin-top: 50px;
+}
+
+.second-branchs {
+  background-color: rgba($color: #000000, $alpha: 0.8);
+  height: 3000px;
+}
+
+.branch-second-filter {
+  height: 3000px;
+  background-image: image-url('table1.jpg');
+  background-size: cover;
+  width: 800px;
+  margin: 0 auto;
+}
