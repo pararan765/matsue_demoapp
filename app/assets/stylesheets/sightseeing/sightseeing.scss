@@ -1,0 +1,156 @@
+.sightseeing-wrapper {
+  height: 1700px;
+}
+
+.sightseeing-food-thumbnail {
+  background-image: image-url('food2.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 70vw;
+  margin: 0 auto;
+  border-radius: 10%;
+  position: relative;
+}
+
+.sightseeing-history-thumbnail {
+  background-image: image-url('history2.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 70vw;
+  margin: 0 auto;
+  border-radius: 10%;
+  position: relative;
+}
+
+.sightseeing-nature-thumbnail {
+  background-image: image-url('nature2.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 70vw;
+  margin: 0 auto;
+  border-radius: 10%;
+  position: relative;
+}
+
+.sightseeing-spa-thumbnail {
+  background-image: image-url('spa2.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 70vw;
+  margin: 0 auto;
+  border-radius: 10%;
+  position: relative;
+}
+
+.sightseeing-filter {
+  height: 100vh;
+  width: 70vw;
+  background-color: rgba($color: #000000, $alpha: 0.4);
+  border-radius: 10%;
+}
+
+.sightseeing-filter:hover {
+  background-color: rgba($color: #000000, $alpha: 0);
+}
+
+.sightseeing-logo {
+  position: absolute;
+  left: 50px;
+  font-weight: bold;
+  font-size: 100px;
+  color: #fdeff2;
+  animation: fadeIn 2s linear;
+  animation-fill-mode: both;
+}
+
+.sightseeing-filter p {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 30px;
+  animation: fadeIn 2s linear;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+.sightseeing-contents {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  padding-bottom:100px ;
+  border-top: 3px solid #c89932 ;
+  border-bottom: 3px solid #c89932 ;
+}
+
+.food1 {
+  background-image: image-url('food4.jpg');
+  background-size: cover;
+}
+
+.food2 {
+  background-image: image-url('food3.jpg');
+  background-size: cover;
+}
+
+.history1 {
+  background-image: image-url('history3.jpg');
+  background-size: cover;
+}
+
+.history2 {
+  background-image: image-url('history4.jpg');
+  background-size: cover;
+}
+
+.nature1 {
+  background-image: image-url('nature3.jpg');
+  background-size: cover;
+}
+
+.nature2 {
+  background-image: image-url('nature4.jpg');
+  background-size: cover;
+}
+
+.spa1 {
+  background-image: image-url('spa3.jpg');
+  background-size: cover;
+}
+
+.spa2 {
+  background-image: image-url('spa4.jpg');
+  background-size: cover;
+}
+
+.sightseeing-content {
+  width: 40vw;
+  height: 500px;
+  border-radius: 5%;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.content-filter {
+  width: 40vw;
+  height: 500px;
+  background-color: rgba($color: #000000, $alpha: 0.4);
+  border-radius: 5%;
+}
+
+.content-filter h5 {
+  margin-top: 0px;
+  font-size: 40px;
+  display: block;
+}
+
+.content-filter p {
+  font-size: 25px;
+}

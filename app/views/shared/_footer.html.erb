@@ -1,9 +1,9 @@
     <footer >
       <div class="footer-wrapper">
-        <%= link_to '心ゆくまで黄昏る', root_path, class:"footer-catch"%>
+        <%= link_to '松江', root_path, class:"footer-catch"%>
         <div class="account">
           <% if user_signed_in?%>
-            <%= link_to 'マイページ', matsue_path(current_user.id), class: "user" %>
+            <%#<%= link_to 'マイページ', matsue_path(current_user.id), class: "user" %>
             <%= link_to 'ログアウト', destroy_user_session_path, class: "user footer-new-account", method: :delete %>
           <% else %>
             <%= link_to 'ログイン', new_user_session_path, class: "user footer-login" %>
