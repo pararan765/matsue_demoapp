@@ -1,0 +1,2 @@
+module NatureHelper
+end

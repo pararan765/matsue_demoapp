@@ -11,32 +11,28 @@
     <div class="category-wrapper">
       <h2>松江の魅力</h2>
       <div class="category">
-        <a href="#" class="category-list food">
+        <%= link_to(foods_path,class: "category-list food") do %> 
           <div class="black-filter">
           <h3>食</h3>
-          <p>test</p>
           </div>
-        </a>
-        <a href="#" class="category-list history">
+        <% end %>
+        <%= link_to(history_index_path,class: "category-list history") do %>
           <div class="black-filter">
           <h3>歴史</h3>
-          <p>test</p>
           </div>
-        </a>
+        <% end%>
       </div>
       <div class="category">
-        <a href="#" class="category-list nature">
+        <%= link_to(nature_index_path,class: "category-list nature") do %>
           <div class="black-filter">
           <h3>自然</h3>
-          <p>test</p>
           </div>
-        </a>
-        <a href="#" class="category-list spa">
+        <% end %>
+        <%= link_to(spa_index_path,class: "category-list spa") do %>
           <div class="black-filter">
           <h3>温泉</h3>
-          <p>test</p>
           </div>
-        </a>
+        <% end %>
       </div>
     </div>
   </div>
